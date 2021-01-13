@@ -1,0 +1,25 @@
+From 9f8ec1c3da8916aec8470e10fc674b1f2306132e Mon Sep 17 00:00:00 2001
+From: Liam Hopkins <liamh@google.com>
+Date: Wed, 13 Jan 2021 14:03:58 -0800
+Subject: [PATCH] correct udev rule syntax (#15)
+
+---
+ src/lib/udev/rules.d/65-gce-disk-naming.rules | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/lib/udev/rules.d/65-gce-disk-naming.rules b/src/lib/udev/rules.d/65-gce-disk-naming.rules
+index 142b8d2..a8035d3 100644
+--- a/src/lib/udev/rules.d/65-gce-disk-naming.rules
++++ b/src/lib/udev/rules.d/65-gce-disk-naming.rules
+@@ -21,7 +21,7 @@ SUBSYSTEM!="block", GOTO="gce_disk_naming_end"
+ KERNEL=="sd*|vd*", IMPORT{program}="scsi_id --export --whitelisted -d $tempnode"
+ 
+ # NVME Local SSD naming
+-KERNEL=="nvme*n*", ATTRS{model}=="nvme_card", PROGRAM="/bin/sh -c 'echo $((%n-1))'", ENV{ID_SERIAL_SHORT}="local-nvme-ssd-%c"
++KERNEL=="nvme*n*", ATTRS{model}=="nvme_card", PROGRAM="/bin/sh -c 'echo $$((%n-1))'", ENV{ID_SERIAL_SHORT}="local-nvme-ssd-%c"
+ KERNEL=="nvme*", ATTRS{model}=="nvme_card", ENV{ID_SERIAL}="Google_EphemeralDisk_$env{ID_SERIAL_SHORT}"
+ 
+ # NVME Persistent Disk Naming
+-- 
+2.25.1
+
