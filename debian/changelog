@@ -1,3 +1,15 @@
+gce-compute-image-packages (20210629.00-0ubuntu1) impish; urgency=medium
+
+  * New upstream version 20210629.00. (LP: #1938440)
+    - dracut.conf wants spaces around values (#19).
+    - address set_hostname vuln (#22).
+  * d/p/0001-correct-udev-rule-syntax-15.patch: Drop patch
+    as it is included in this upstream release.
+  * d/lintian-overrides: Update lintian-overrides by dropping
+    the older ones and adding a new one.
+
+ -- Utkarsh Gupta <utkarsh.gupta@canonical.com>  Thu, 29 Jul 2021 17:20:54 +0530
+
 gce-compute-image-packages (20201222.00-0ubuntu2) hirsute; urgency=medium
 
   * Update udev rule fix from upstream
