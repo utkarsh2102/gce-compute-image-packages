@@ -1,3 +1,9 @@
+gce-compute-image-packages (20211028.00-0ubuntu1~21.04.0) hirsute; urgency=medium
+
+  * No-change rebuild for Hirsute. (LP: #1953673)
+
+ -- Utkarsh Gupta <utkarsh@ubuntu.com>  Wed, 08 Dec 2021 23:20:02 +0530
+
 gce-compute-image-packages (20211028.00-0ubuntu1) jammy; urgency=medium
 
   * New upstream version 20211028.00. (LP: #XXXXXX)
