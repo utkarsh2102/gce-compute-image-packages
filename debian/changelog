@@ -1,3 +1,9 @@
+gce-compute-image-packages (20211028.00-0ubuntu1~20.04.0) focal; urgency=medium
+
+  * No-change rebuild for Focal. (LP: #1953673)
+
+ -- Utkarsh Gupta <utkarsh@ubuntu.com>  Wed, 08 Dec 2021 23:32:46 +0530
+
 gce-compute-image-packages (20211028.00-0ubuntu1) jammy; urgency=medium
 
   * New upstream version 20211028.00. (LP: #XXXXXX)
