@@ -1,3 +1,20 @@
+gce-compute-image-packages (20211028.00-0ubuntu1~20.04.0) focal; urgency=medium
+
+  * No-change rebuild for Focal. (LP: #1953673)
+
+ -- Utkarsh Gupta <utkarsh@ubuntu.com>  Wed, 08 Dec 2021 23:32:46 +0530
+
+gce-compute-image-packages (20211028.00-0ubuntu1) jammy; urgency=medium
+
+  * New upstream version 20211028.00. (LP: #XXXXXX)
+    - use grep for hostname check (#23).
+    - dont set IP in etc/hosts; remove rsyslog (#26).
+    - fix NVMe partition names (#25).
+    - restore rsyslog (#27).
+    - Fix NVMe local SSD program regex (#30).
+
+ -- Utkarsh Gupta <utkarsh.gupta@canonical.com>  Mon, 22 Nov 2021 23:59:14 +0530
+
 gce-compute-image-packages (20210629.00-0ubuntu1~20.04.0) focal; urgency=medium
 
   * No-change rebuild for Focal. (LP: #1938440)
