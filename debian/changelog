@@ -1,3 +1,9 @@
+gce-compute-image-packages (20220211.00-0ubuntu1~18.04.0) bionic; urgency=medium
+
+  * No-change rebuild for Bionic. (LP: #1973159)
+
+ -- Utkarsh Gupta <utkarsh@ubuntu.com>  Fri, 10 Jun 2022 14:26:48 +0530
+
 gce-compute-image-packages (20220211.00-0ubuntu1) kinetic; urgency=medium
 
   * New upstream version 20220211.00. (LP: #1973159)
