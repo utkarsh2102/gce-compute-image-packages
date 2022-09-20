@@ -1,3 +1,10 @@
+gce-compute-image-packages (20220211.00-0ubuntu1~16.04.0) xenial; urgency=medium
+
+  * No-change rebuild for Xenial
+    - Downgrade debhelper from 9.20160709 to 9.
+
+ -- Utkarsh Gupta <utkarsh@debian.org>  Tue, 20 Sep 2022 14:21:14 +0530
+
 gce-compute-image-packages (20220211.00-0ubuntu1) kinetic; urgency=medium
 
   * New upstream version 20220211.00. (LP: #1973159)
