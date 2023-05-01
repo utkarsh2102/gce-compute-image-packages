@@ -1,3 +1,15 @@
+gce-compute-image-packages (20230328.00-0ubuntu1) lunar; urgency=medium
+
+  * New upstream version 20230328.00 (LP: #2015496)
+    - Fix a repository URL in packaging specs (#41)
+    - Update owners file. (#43)
+    - dhcp hostname: don't reset hostname if the hostname hasn't changed (#44)
+    - Update OWNERS (#45)
+    - Support multiple local SSD controllers. (#39)
+    - set hostname: consider fully qualified static hostname (#46)
+
+ -- Mitchell Dzurick <mitchell.dzurick@canonical.com>  Thu, 06 Apr 2023 09:34:55 -0700
+
 gce-compute-image-packages (20220211.00-0ubuntu1~18.04.0) bionic; urgency=medium
 
   * No-change rebuild for Bionic. (LP: #1973159)
