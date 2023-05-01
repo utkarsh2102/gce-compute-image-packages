@@ -1,3 +1,9 @@
+gce-compute-image-packages (20230328.00-0ubuntu1~22.10.0) kinetic; urgency=medium
+
+  * No-change rebuild for Kinetic. (LP: #2015496)
+
+ -- Utkarsh Gupta <utkarsh@ubuntu.com>  Mon, 01 May 2023 10:26:05 +0200
+
 gce-compute-image-packages (20230328.00-0ubuntu1) lunar; urgency=medium
 
   * New upstream version 20230328.00 (LP: #2015496)
