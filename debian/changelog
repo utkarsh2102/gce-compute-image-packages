@@ -1,3 +1,9 @@
+gce-compute-image-packages (20230328.00-0ubuntu1~16.04.0) xenial; urgency=medium
+
+  * No-change rebuild for Xenial.
+
+ -- Utkarsh Gupta <utkarsh@ubuntu.com>  Wed, 03 May 2023 11:49:57 +0200
+
 gce-compute-image-packages (20230328.00-0ubuntu1) lunar; urgency=medium
 
   * New upstream version 20230328.00 (LP: #2015496)
