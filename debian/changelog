@@ -1,10 +1,11 @@
-gce-compute-image-packages (20230808.00-0ubuntu2~24.04.0) noble; urgency=medium
+gce-compute-image-packages (20230808.00-0ubuntu2) noble; urgency=medium
 
-  * Changes made to d/99-gce.rules
+  * debian/99-gce.rules:
     * The previous rule forced an I/O scheduler on all disk types. This
-      has now been re-scoped to only affect HDDs
+      has now been re-scoped to only affect HDDs.
     * The I/O scheduler has also been changed from "NOOP" to "NONE"
-      which performed much better in testing.  
+      which performed much better in testing.
+    * LP: #2045708.
 
  -- Chloé 'kajiya' Smith <chloe.smith@canonical.com>  Mon, 16 Oct 2023 22:59:06 +0100
 
