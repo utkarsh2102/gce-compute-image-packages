@@ -1,3 +1,14 @@
+gce-compute-image-packages (20230808.00-0ubuntu2~20.04.0) focal; urgency=medium
+  
+  * debian/99-gce.rules:
+    * The previous rule forced an I/O scheduler on all disk types. This
+      has now been re-scoped to only affect HDDs.
+    * The I/O scheduler has also been changed from "NOOP" to "NONE"
+      which performed much better in testing.
+    * LP: #2045708.
+
+ -- Chloé 'kajiya' Smith <chloe.smith@canonical.com>  Tue, 09 Jan 2024 23:46:16 +0000
+
 gce-compute-image-packages (20230808.00-0ubuntu1~20.04.0) focal; urgency=medium
 
   * No-change rebuild for Focal.
