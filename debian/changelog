@@ -1,4 +1,4 @@
-gce-compute-image-packages (20230808.00-0ubuntu2~20.04.0) focal; urgency=medium
+gce-compute-image-packages (20230808.00-0ubuntu1~20.04.1) focal; urgency=medium
   
   * debian/99-gce.rules:
     * The previous rule forced an I/O scheduler on all disk types. This
