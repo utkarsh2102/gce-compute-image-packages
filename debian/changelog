@@ -1,3 +1,9 @@
+gce-compute-image-packages (20240307.00-0ubuntu1) oracular; urgency=medium
+
+  * Update package to new upstream tag 20240307.00 (LP: #2066314)
+
+ -- Chloé 'kajiya' Smith <chloe.smith@canonical.com>  Tue, 21 May 2024 14:03:23 +0100
+
 gce-compute-image-packages (20230808.00-0ubuntu2) noble; urgency=medium
 
   * debian/99-gce.rules:
