@@ -1,3 +1,9 @@
+gce-compute-image-packages (20240307.00-0ubuntu1~20.04.0) focal; urgency=medium
+
+  * Rebuild for Focal Fossa (LP: #2066314)
+
+ -- Chloé 'kajiya' Smith <chloe.smith@canonical.com>  Thu, 23 May 2024 11:56:07 +0100
+
 gce-compute-image-packages (20240307.00-0ubuntu1) oracular; urgency=medium
 
   * New upstream version 20240307.00. (LP: #2066314)
