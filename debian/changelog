@@ -1,6 +1,6 @@
 gce-compute-image-packages (20240307.00-0ubuntu1~22.04.0) jammy; urgency=medium
 
-  * Rebuild for Jammy Jellyfish (LP: #2066314)
+  * Rebuild for Jammy. (LP: #2066314)
 
  -- Chloé 'kajiya' Smith <chloe.smith@canonical.com>  Thu, 23 May 2024 11:38:15 +0100
 
