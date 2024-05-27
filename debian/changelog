@@ -1,6 +1,6 @@
 gce-compute-image-packages (20240307.00-0ubuntu1~23.10.0) mantic; urgency=medium
 
-  * Rebuild for Mantic Minotaur (LP: #2066314)
+  * Rebuild for Mantic. (LP: #2066314)
 
  -- Chloé 'kajiya' Smith <chloe.smith@canonical.com>  Thu, 23 May 2024 11:03:23 +0100
 
