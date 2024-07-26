@@ -1,3 +1,9 @@
+gce-compute-image-packages (20240607.00-0ubuntu1~22.04.0) jammy; urgency=medium
+
+  * No-change rebuild for Jammy Jellyfish (LP: #2073164)
+
+ -- Chloé 'kajiya' Smith <chloe.smith@canonical.com>  Fri, 26 Jul 2024 15:44:45 +0100
+
 gce-compute-image-packages (20240607.00-0ubuntu1) oracular; urgency=medium
 
   * New upstream version 20240607.00. (LP: #2073164)
