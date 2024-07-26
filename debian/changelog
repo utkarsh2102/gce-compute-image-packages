@@ -1,3 +1,9 @@
+gce-compute-image-packages (20240607.00-0ubuntu1) oracular; urgency=medium
+
+  * New upstream version 20240607.00. (LP: #2073164)
+
+ -- Chloé 'kajiya' Smith <chloe.smith@canonical.com>  Mon, 15 Jul 2024 18:33:54 +0100
+
 gce-compute-image-packages (20240307.00-0ubuntu1~24.04.0) noble; urgency=medium
 
   * Rebuild for Noble. (LP: #2066314)
