@@ -1,3 +1,9 @@
+gce-compute-image-packages (20240607.00-0ubuntu1~18.04.0) bionic; urgency=medium
+
+  * Rebuild for Bionic Beaver (LP: #2073164) 
+
+ -- Chloé 'kajiya' Smith <chloe.smith@canonical.com>  Thu, 22 Aug 2024 15:30:25 +0100
+
 gce-compute-image-packages (20240607.00-0ubuntu1) oracular; urgency=medium
 
   * New upstream version 20240607.00. (LP: #2073164)
