@@ -1,12 +1,12 @@
 gce-compute-image-packages (20240607.00-0ubuntu1~16.04.0) xenial; urgency=medium
 
-  * Rebuild for Xenial Xerus (LP: #2073164) 
+  * No-change rebuild for Xenial.
 
  -- Chloé 'kajiya' Smith <chloe.smith@canonical.com>  Thu, 22 Aug 2024 17:57:29 +0100
 
 gce-compute-image-packages (20240607.00-0ubuntu1~18.04.0) bionic; urgency=medium
 
-  * Rebuild for Bionic Beaver (LP: #2073164) 
+  * No-change rebuild for Bionic.
 
  -- Chloé 'kajiya' Smith <chloe.smith@canonical.com>  Thu, 22 Aug 2024 15:30:25 +0100
 
